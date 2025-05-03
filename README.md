@@ -11,3 +11,8 @@ We recommend creating a virtual environment. All the required dependencies are l
 python -m venv .venv
 .venv\Scripts\Activate.ps1
 pip install -r requirements.txt
+```
+### To only install MirKusAnalytics (use upgrade option to get the latest version)
+```bash
+pip install mirkusanalytics --upgrade
+```
