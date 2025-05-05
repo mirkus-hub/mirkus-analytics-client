@@ -2,10 +2,19 @@
 
 **MirKus-Analytics-Client** is a Python project that provides basic features for exploring MirKus information.
 
+## 📦 MirKusAnalytics credentials
+
+To start working on the file, creat a .env file on the root folder and insert your credentials as follows:
+```bash
+SERVER=SERVER
+USERNAME=USERNAME
+PASSWORD=PASSWORD
+```
+
 ## 📦 Installation
 
-To start working on the file, insert your credentials into the .env file and run the following commands on your terminal. 
 We recommend creating a virtual environment. All the required dependencies are listed in the requirements.txt file.
+Run the following commands on your terminal:
 
 ```bash
 python -m venv .venv
@@ -13,6 +22,7 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 ### To only install MirKusAnalytics (use upgrade option to get the latest version)
+
 ```bash
 pip install mirkusanalytics --upgrade
 ```
